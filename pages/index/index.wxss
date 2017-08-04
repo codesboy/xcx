@@ -1,0 +1,7 @@
+/* index.wxss */
+.link{
+    border: 1px solid red;
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
