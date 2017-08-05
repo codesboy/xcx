@@ -2,8 +2,12 @@
 <text>新闻页面</text>
 
 <!--列表渲染  -->
-<block wx:for="{{lists}}" wx:for-item="item">
+<block wx:for="{{lists}}">
     <view class="classname">
+
+        <!-- {{...item}} -->
         {{index}}--{{item.name}}--{{item.age}}--{{item.sex}}
+
+
     </view>
 </block>
